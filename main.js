@@ -17,3 +17,15 @@ slideshow.addEventListener('animationiteration', ()=>{
 });
 
 startSlideshow();
+
+let nav = document.querySelector('.navMenu');
+nav.style.display="none";
+function menu(){
+    if(nav.style.display == "block"){
+        nav.style.display="none";
+    }
+    else{
+        nav.style.display="block";
+    }
+}
+
